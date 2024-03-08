@@ -1,0 +1,8 @@
+git init - inicia um repositório vazio
+git config user.name  - atribui nome do usuário ao repositorio
+git config user.mail - atribui email ao repositorio
+git config --global user.mane - configura o nome do usario do git
+git config --global user.mail - configura o email do usario
+git add -A  ou git add . - adiciona todos os arquivos para serem commitados
+git add nomeDoArquivo - adiciona um arquivo especifico para o commit
+git commit -m - cria a versao do projeto. Com o comando -m pode-se colocar um texto explicando o que foi feito nesse commit
