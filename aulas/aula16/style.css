@@ -1,0 +1,20 @@
+.paragrafoClasse{
+    color: brown;
+}
+
+#paragrafoId{
+    color: darkgreen;
+}
+
+div{
+    color: red;
+}
+
+p{
+    background-color: darkgrey;
+}
+
+.divClasse{
+    font-size: 2rem;
+    color: blue;
+}
