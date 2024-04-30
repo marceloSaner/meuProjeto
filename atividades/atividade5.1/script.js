@@ -1,10 +1,10 @@
-let elementoH1 = document.querySelector("h1")
+let elementoH1 = document.getElementById("titulo")
 elementoH1.innerText = "Atividade 5.1 - Manipulando Elementos via DOM!"
 
 let elementoa = document.querySelector("a")
 elementoa.innerText = "Proz Educação"
 
-let elementoUl = document.querySelector("ul")
+let elementoUl = document.getElementById("lista-desordenada")
 elementoUl.innerHTML = `
 <li>Item 01 da Lista Não Ordenada</li>
 <li>Item 02 da Lista Não Ordenada</li>
