@@ -1,32 +1,39 @@
 //console.log("teste de conexao")
 
-//const logotipo = document.getElementById("logo")
+//let logotipo = document.getElementById("logo")
 //console.log(logotipo)
 
-//const formulario = document.getElementById("formulario")
+//let formulario = document.getElementById("formulario")
 //console.log(formulario)
 
-//const postagens = document.getElementById("posts")
+//let postagens = document.getElementById("posts")
 //console.log(postagens)
 
-//const dataPost = document.getElementsByClassName("post-data")
+//let dataPost = document.getElementsByClassName("post-data")
 //console.log(dataPost)
 
-//const postTexto = document.getElementsByClassName("post-texto")
+//let postTexto = document.getElementsByClassName("post-texto")
 //console.log(postTexto)
-
 
 //const redes = document.getElementsByClassName("lista_redes")
 //console.log(redes)
 
-const textoPost01 = document.querySelector("article .post-texto")
-console.log(textoPost01)
+let logo = document.getElementById("logo")
+//console.log(logo)
 
-const textoPost1 = document.querySelector("article .post-texto").innerHTML
-console.log(textoPost1)
+let postAutores = document.getElementsByClassName("post-autor")
+//console.log(postAutores)
 
-const redesSociais = document.querySelectorAll(".lista_redes")
-console.log(redesSociais)
+let texto02 = document.querySelector("#port02 .post-texto")
+//console.log(texto02)
 
-const redesSociais1 = document.querySelector(".lista_redes").innerText
-console.log(redesSociais1)
+let listaRedesFooter = document.querySelectorAll("footer .lista_redes li")
+//console.log(listaRedesFooter.innerHtml)
+
+function percorrerArray(lista){
+    for (let i = 0; i < lista.length; i++){
+        console.log(lista[i])
+    }
+}
+
+percorrerArray(listaRedesFooter)

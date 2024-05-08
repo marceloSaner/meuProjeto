@@ -53,9 +53,9 @@ for (let i = 0; i < arrayPostagens.length; i++){
   
   //Criando o elemento
   const artigo = document.createElement("article")
-  artigo.id = `post-${[i + 1]}`
 
   //populando o elemento
+  artigo.id = `post-${[i + 1]}`
   artigo.innerHTML = `
   <h3>${arrayPostagens[i].titulo}</h3>
   <p class="subtitulo">${arrayPostagens[i].subtitulo}</p>
